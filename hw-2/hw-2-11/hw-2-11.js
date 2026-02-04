@@ -1,4 +1,4 @@
-let x = null;
+let x
 if(!x) {
     x = 'default'
     console.log(x)

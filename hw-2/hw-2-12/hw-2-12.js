@@ -54,3 +54,14 @@ if(course6.monthDuration>5){
 else{
     console.log('Not Super!')
 }
+console.log('~~~~~~~~~~')
+
+//Це з 3 уроку
+for (const course of coursesAndDurationArray) {
+    if(course.monthDuration>5){
+        console.log('Super!')
+    }
+    else{
+        console.log('Not Super!')
+    }
+}

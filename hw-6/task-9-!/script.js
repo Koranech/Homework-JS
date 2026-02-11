@@ -74,7 +74,9 @@ let coursesArray = [
     }
 ];
 
-console.log(coursesArray.filter(value => {return value.modules.includes('sass');}));
+console.log(coursesArray.filter(value => {
+    return value.modules.includes('sass');
+}));
 
 //1) Фільтруємо масив об'єктів
 //2) Перевіряємо чи містить в ключі кожного об'єкта наше значення

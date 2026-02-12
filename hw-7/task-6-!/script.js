@@ -16,9 +16,9 @@ function Car(model, manufacturer, yearOfManufacture, maxSpeed, engineCapacity){
         Об'єм двигуна - ${this.engineCapacity} л,
         `)}
 
-    this.increaseMaxSpeed = function (speed) {
-        let newSpeed = maxSpeed + speed
-        console.log(newSpeed)
+    this.increaseMaxSpeed = function (newSpeed) {
+        this.maxSpeed = this.maxSpeed + newSpeed
+        console.log(this.maxSpeed)
     }
     this.changeYear = function (newValue) {
         this.yearOfManufacture = newValue

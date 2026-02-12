@@ -18,7 +18,7 @@ function swapElementsOfArray(array, index1, index2){
     return 'Елемента з таким індексом в масиві не існує';
 }
 
-arr =[1,2,3,4,5, 10];
+arr =[1,2,3,4,5, 6];
 console.log(swapElementsOfArray(arr, 1, 5));
 
 
@@ -31,5 +31,14 @@ console.log(swapElementsOfArray(arr, 1, 5));
 
 
 
+function swap2(arr, i1, i2){
+    if(i1 < arr.length && i2 < arr.length){
+        let temp = arr[i1]
+        arr[i1] = arr[i2];
+        arr[i2] = temp;
+        return arr;
+    }
 
+}
 
+console.log(swap2(arr,0, 5))

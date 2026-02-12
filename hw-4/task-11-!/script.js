@@ -13,4 +13,4 @@ let arr = [11, 22, 33, 44, 55, 66]
 console.log(sumOfArrayNumbers(arr));
 
 let arr2 = [113131, -222, -33333, 44333, 14155, 6166]
-console.log(sumOfArrayNumbers(arr2));
+console.log(sumOfArrayNumbers(arr2))

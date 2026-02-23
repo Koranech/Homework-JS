@@ -1,0 +1,42 @@
+.box{
+    height: 50vh;
+    border: 1px solid red;
+    padding: 10px;
+    gap: 10px;
+    margin: 20px 10px;
+}
+
+header{
+    text-align: center;
+    border: 1px solid blue;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.aside-left{
+    border: 1px solid blue;
+    width: 30vw;
+    text-align: center;
+}
+
+.aside-right{
+    border: 1px solid blue;
+    width: 70vw;
+    text-align: center;
+}
+
+main{
+    border: 1px solid blue;
+    padding: 10px;
+}
+main div{
+    border: 1px solid blue;
+    margin-bottom: 10px;
+}

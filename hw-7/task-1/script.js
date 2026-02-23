@@ -4,7 +4,9 @@ function User(id, name, surname , email, phone){
     this.surname = surname;
     this.email = email;
     this.phone = phone;
-    return this
+    //return this - це зайвий код. Хоча й не помилка.
+    // Якщо ви викликаєте функцію-конструктор через new,
+    // JavaScript автоматично повертає створений об'єкт this.
 }
 
 

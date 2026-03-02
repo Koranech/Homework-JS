@@ -30,3 +30,14 @@ let currencies =[
 
 console.log(exchange(money, currencies,'EUR'));
 
+function exchange2 (sum, currencies, exchangeCurrency ) {
+    let chosenCurrency;
+    for (const item of currencies) {
+        if(item.currency === exchangeCurrency) {
+            chosenCurrency = item;
+        }
+    }
+    return sum / chosenCurrency.value
+}
+
+console.log(exchange2(money, currencies,'EUR'));
